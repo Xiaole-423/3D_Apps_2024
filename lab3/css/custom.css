@@ -1,0 +1,203 @@
+body {
+  background-color: #b6e7f3;
+}
+
+/* top left */
+.logo {
+  font-family: colaFont;
+  font-size: 75px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+}
+
+.logo_h1 {
+  font-family: oswaldFont;  
+  font-size: 50px;
+  margin-top: 18px;
+  margin-left: 2px;
+  float: left;
+}
+
+.logo_h2 {
+  font-family: oswaldFont;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 0px;
+  float: left;
+}
+
+.logo_h3 {
+  font-family: openSansFont;
+  font-size: 14px;
+  margin-top: -35px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* top right */
+.collapse {
+  /* margin-top: 90px; */
+  margin-bottom: 0px; 
+  margin-right: 25px; 
+}
+
+/* Folding nav-bar */
+.navbar_cola .navbar-toggler {
+  border-color: black;/* 折叠导航栏-边框*/
+  border-width: 3px;
+}
+.navbar_cola .navbar-toggler-icon {
+  background-image: url(../assets/images/nav-bar.png);/* 折叠导航栏-图标*/
+}
+/* nav-bar */
+.navbar_cola .navbar-nav .nav-item > a {
+  color:  black; /* 导航栏-字体颜色*/
+}
+
+.navbar_cola .navbar-nav > li > a:hover, 
+.navbar_cola  .navbar-nav > li > a:focus {
+  color: #FEDABB;
+  background-color: black;
+  border: none;
+}
+
+.navbar_cola .navbar-nav .nav-item > .active, 
+.navbar_cola .navbar-nav > .active > a:hover, 
+.navbar_cola .navbar-nav > .active > a:focus {
+  color:  #FEDABB; 
+  background-color: black;
+}
+
+.dropdown-menu {
+  font-family: openSansFont;
+  text-align: -webkit-left;
+  background-color: black;/* 下拉菜单-背景颜色*/
+}
+
+.dropdown-menu .dropdown-item {
+  font-family: openSansFont;
+  color: #FEDABB;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: black;/* 下拉菜单-鼠标放置-文字颜色*/
+  background-color: #FEDABB;/* 下拉菜单-鼠标放置-背景颜色*/
+}
+
+/* middle 1 */
+.main_3d_image {
+  background-image: url(../assets/images/main_3D.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+  margin-top: -10px;
+}
+
+.main_content {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-right: 40px;
+  width: 400px;
+  height: 170px;
+  margin-top: 150px;
+  float: right;
+}
+
+.main_text_h1 {
+  font-family: oswaldFont;
+  font-size: 32px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.main_text_h2 {
+  font-family: oswaldFont;
+  font-size: 24px;
+  margin-top: -5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.main_text_p {
+  font-family: openSansFont;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+/* middle 2 */
+.card {
+  border: 0px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+.card_text_h1 {
+  font-family: oswaldFont;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+
+/* bottom ??????? */
+.copyright > p {
+  margin: 5px;
+  padding-top: 0px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.social {
+  margin: 10px;
+  padding: 0px;
+  width: 30%;   
+}
+
+.social > a {
+  font-size: 10px;  
+}
+
+.fa-twitter-square:before {
+  content: "\f081";
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-github-square:before {
+  content: "\f092"; 
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-google-plus-square:before {
+  content: "\f0d4"; 
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+  color: black;
+  font-size: 1.5em; 
+}
+
+/* other */
+@font-face {
+  font-family: oswaldFont;
+  src: url(../assets/fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+  font-family: openSansFont;
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: colaFont;
+  src: url(../assets/fonts/LOKICOLA.TTF);
+}

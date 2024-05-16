@@ -1,0 +1,929 @@
+body{
+  background-image: url(../assets/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 页眉 */
+nav{
+  background-color: #b6e7f3;
+}
+
+/* 首页-方形边框 */
+#row1{
+  height: 328px; 
+  background-repeat: no-repeat; 
+  background-color: rgb(2, 53, 85); 
+  border-radius: 5%;
+}
+
+/* 首页-了解更多-按钮 */
+.btn-primary {
+  color: #fff;
+  background-color: rgba(212, 89, 87, 1.0);
+  border-color: #007bff;
+  border: 0px;
+  margin-top: 0%;
+}
+
+/* 展览页-文字样式 */
+.card-title{
+  font-family: oswaldFont;
+  color: #b6e7f3;
+  font-size: 42px;
+}
+.card-subtitle{
+  font-family: oswaldFont;
+  color: #b6e7f3;
+  font-size: 30px;
+}
+.card-text{
+  font-family: openSansFont;
+  color: rgba(212, 89, 87, 1.0);
+  font-size: 20px;
+}
+.card_title{
+  font-family: oswaldFont;
+  color: #b6e7f3;
+  background-color: rgb(2, 53, 85);
+  font-size: 27px;
+  padding-left: 9%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.card-header{
+  background-color: rgb(2, 53, 85);
+}
+.card-text-left{
+  border: 1px solid #b6e7f3;
+  height: 97%;
+  margin: 2%;
+}
+
+/* homepage top left */
+.logo { /* LOGO图案 */
+  font-family: colaFont;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.logo_h1 { /* J */
+  font-family: oswaldFont;  
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 2px;
+  text-align: left;
+}
+
+.logo_h2 { /* ourney */
+  font-family: oswaldFont;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+.logo_h3 { /* 一行小字 */
+  font-family: openSansFont;
+  font-size: 14px;
+  margin-top: 13px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+/* homepage top right */
+.collapse {
+  margin-right: 30px; 
+}
+
+.navbar_cola .navbar-toggler { /* Folding nav-bar */
+  border-color: rgb(2, 53, 85);/* 折叠导航栏-边框*/
+  border-width: 3px;
+}
+.navbar_cola .navbar-toggler-icon {
+  background-image: url(../assets/images/nav-bar.png);/* 折叠导航栏-图标*/
+}
+
+.navbar_cola .navbar-nav .nav-item > a { /* nav-bar */
+  color:  rgb(2, 53, 85); /* 导航栏-字体颜色*/
+}
+
+.navbar_cola .navbar-nav > li > a:hover, 
+.navbar_cola  .navbar-nav > li > a:focus {
+  color: white;
+  background-color: rgb(2, 53, 85);
+  border: none;
+}
+
+.navbar_cola .navbar-nav .nav-item > .active, 
+.navbar_cola .navbar-nav > .active > a:hover, 
+.navbar_cola .navbar-nav > .active > a:focus {
+  color:  white; 
+  background-color: rgb(2, 53, 85);
+}
+
+.dropdown-menu {
+  font-family: openSansFont;
+  text-align: -webkit-left;
+  background-color: rgb(2, 53, 85);/* 下拉菜单-背景颜色*/
+}
+
+.dropdown-menu .dropdown-item {
+  font-family: openSansFont;
+  color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: rgb(2, 53, 85);/* 下拉菜单-鼠标放置-文字颜色*/
+  background-color: white;/* 下拉菜单-鼠标放置-背景颜色*/
+}
+
+/* 页眉 */
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color:  #760003; /* Font color for active font */
+  background-color: #3399ff; /* Blue color for background */
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link {
+  color: white;  
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+/* Added this to emulate the nav-bar link styling */
+.nav-tabs .nav-link:hover {
+  color: green;
+  border: 1px solid transparent;
+}
+
+/* homepage middle 1 */
+.main_content1 {
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: rgb(2, 53, 85);
+}
+.logo_h4 { /* 标题 */
+  font-family: oswaldFont;
+  font-size: 72px;
+  text-align: left;
+  color: #b6e7f3;
+}
+
+.main_content2 {
+  text-align: right;
+  margin-left: 40%;
+  margin-top: 8%;
+  padding-bottom: 5%;
+  margin-right: 5%;
+  color: #b6e7f3;
+}
+.main_text_h1 {
+  font-family: oswaldFont;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+  text-align: right;
+  color: #b6e7f3;
+}
+.main_text_h2 {
+  font-family: oswaldFont;
+  font-size: 12px;
+  margin-top: -5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  text-align: right;
+  color: #b6e7f3;
+}
+.main_text_p {
+  font-family: openSansFont;
+  font-size: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  text-align: right;
+  line-height: 1.5;
+  color: #b6e7f3;
+}
+
+/* homepage middle 2 */
+.card_text_h2 {
+  font-family: oswaldFont;
+  font-size: 14px;
+  color: #b6e7f3;
+  text-align: left;
+  margin-top: 7%;
+}
+.card_text_h22 {
+  font-family: oswaldFont;
+  font-size: 14px;
+  color: #b6e7f3;
+  text-align: left;
+  margin-top: 7%;
+}
+
+.main_3d_image {
+  display: none;
+}
+
+.main_3d_image22 {
+  display: none;
+}
+.main_3d_image3 {
+  display: none;
+}
+
+.card_text_h1 {
+  font-family: oswaldFont;
+  font-size: 40px;
+  color: #b6e7f3;
+  text-align: center;
+  margin-right: 17%;
+  padding-left: 26%;
+  margin-top: -9%;
+}
+.card_text_h11 {
+  font-family: oswaldFont;
+  font-size: 40px;
+  color: #b6e7f3;
+  text-align: center;
+  margin-left: 14%;
+  margin-top: 3%;
+  padding-right: 8%;
+}
+
+/* footer ??????? */
+.copyright > p {
+  margin: 5px;
+  padding-top: 0px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.social {
+  margin: 10px;
+  padding: 0px;
+  width: 30%;   
+}
+
+.social > a {
+  font-size: 10px;  
+}
+
+.fa-twitter-square:before {
+  content: "\f081";
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-github-square:before {
+  content: "\f092"; 
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-google-plus-square:before {
+  content: "\f0d4"; 
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+  color: black;
+  font-size: 1.5em; 
+}
+
+
+
+
+/* model btns */
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color:  #760003; /* Font color for active font */
+  background-color: #3399ff; /* Blue color for background */
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link {
+  color: white;  
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+/* nav-bar link styling */
+.nav-tabs .nav-link:hover {
+  color: green;
+  border: 1px solid transparent;
+}
+
+.camera-btns {
+  /* background-color: rgba(0, 0, 255, 0.3);  */
+  border-color: black; 
+  border-style: solid;
+  border-width: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.camera-btns > p  {
+  font-size: 15px;
+  color: red;
+  padding: 5px 0px;
+  font-weight: 900; 
+}
+
+.camera-font {
+  font-weight: 400;   
+  color: white;
+}
+
+.camera-font:hover {
+  font-weight: 700;   
+  color: rgb(3, 3, 3);
+}
+
+.btn-responsive {
+  padding: 4px 9px;
+  font-size: 60%;
+  line-height: 1.2;
+  white-space: normal !important;
+}
+
+/* gallery */
+.img-thumbnail {
+  padding: 0.25rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery .img-thumbnail{
+  /*
+  border: 1px solid #dee2e6;
+  
+  */
+  background-color: rgb(3, 38, 70);
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  margin: 13px;
+  max-width: 92%;
+  height: auto;
+}
+
+.gallery-header {
+  color: white;
+}
+
+.gallery-header:hover {
+  color: green;
+  border: 1px solid transparent;
+}
+
+.model3D  {
+  background-color: rgba(255, 255, 255, 0.0); /* Adjust the transparency to bring the color forward */
+  border-radius: 5px;
+  border: 0px solid rgba(0, 0, 0, 1.0);
+  padding: 2px;
+  height: 200px;
+}
+
+X3D, x3d {
+  background-color: rgba(255, 255, 255, 0.0); /* Adjust the transparency to bring the color forward */
+  border-radius: 5px;
+  border: 0px solid rgba(255, 0, 0, 1.0);
+  width: 100%;
+  height: 100%
+  
+}
+
+
+
+
+
+/* other */
+@font-face {
+  font-family: oswaldFont;
+  src: url(../assets/fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+  font-family: openSansFont;
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: colaFont;
+  src: url(../assets/fonts/LOKICOLA.TTF);
+}
+
+@font-face {
+  font-family: Bacchus;
+  src: url(../assets/fonts/Bacchus-ExtraBold-2.TTF);
+}
+
+@media (min-width: 576px) {
+
+  #row1{
+    height: 290px; 
+    background-repeat: no-repeat; 
+    background-color: rgb(2, 53, 85); 
+    border-radius: 5%;
+  }
+
+  .main_content1 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(2, 53, 85);
+  }
+  .logo_h4 { /* 标题 */
+    font-family: oswaldFont;
+    font-size: 74px;
+    text-align: left;
+    color: #b6e7f3;
+  }
+  
+  .main_content2 {
+    text-align: right;
+    margin-left: 40%;
+    margin-top: 22%;
+    margin-right: 5%;
+    color: #b6e7f3;
+  }
+  .main_text_h1 {
+    font-family: oswaldFont;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_h2 {
+    font-family: oswaldFont;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_p {
+    font-family: openSansFont;
+    font-size: 7px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 1.5;
+    color: #b6e7f3;
+  }
+
+  .card_text_h2 {
+    font-size: 14px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .card_text_h22 {
+    font-size: 14px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 15%;
+    margin-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .main_3d_image {
+      background-image: url(../assets/images/cola_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 313px;
+      width: 240px;
+      text-align: right;
+      margin-top: -10%;
+      margin-left: -10%;
+      display: block;
+    }
+    .main_3d_image22 {
+      background-image: url(../assets/images/Sprite_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 320px;
+      width: 260px;
+      text-align: left;
+      margin-top: -10%;
+      display: block;
+    }
+    .main_3d_image3 {
+      background-image: url(../assets/images/dr_pepper_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 322px;
+      width: 260px;
+      text-align: right;
+      margin-top: -10%;
+      margin-left: -15%;
+      display: block;
+    }
+
+  .card_text_h1 {
+    font-family: oswaldFont;
+    font-size: 42px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 122%;
+    margin-left: -30%;
+    padding-left: 24%;
+  }
+  .card_text_h11 {
+    font-family: oswaldFont;
+    font-size: 42px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 122%;
+    margin-left: 16%;
+    padding-right: 0%;
+  }
+}
+
+@media (min-width: 768px) {
+
+  #row1{
+    height: 270px; 
+    background-repeat: no-repeat; 
+    background-color: rgb(2, 53, 85); 
+    border-radius: 5%;
+  }
+
+  .main_content1 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(2, 53, 85);
+  }
+  .logo_h4 { /* 标题 */
+    font-family: oswaldFont;
+    font-size: 76px;
+    text-align: left;
+    color: #b6e7f3;
+  }
+  
+  .main_content2 {
+    text-align: right;
+    margin-left: 40%;
+    margin-top: 17%;
+    margin-right: 5%;
+    color: #b6e7f3;
+  }
+  .main_text_h1 {
+    font-family: oswaldFont;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_h2 {
+    font-family: oswaldFont;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_p {
+    font-family: openSansFont;
+    font-size: 9px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 1.5;
+    color: #b6e7f3;
+  }
+
+  .card_text_h2 {
+    font-size: 14px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 17%;
+  }
+  .card_text_h22 {
+    font-size: 14px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 16%;
+    margin-right: 9%;
+  }
+  
+  .main_3d_image {
+      background-image: url(../assets/images/cola_can.png);
+      background-repeat: no-repeat;
+      height: 320px;
+      width: 250px;
+      text-align: right;
+      margin-top: -10%;
+      margin-left: 26%;
+      display: block;
+    }
+    .main_3d_image22 {
+      background-image: url(../assets/images/Sprite_can.png);
+      background-repeat: no-repeat;
+      height: 320px;
+      width: 250px;
+      text-align: left;
+      margin-top: -10%;
+      margin-left: -8%;
+      display: block;
+    }
+    .main_3d_image3 {
+      background-image: url(../assets/images/dr_pepper_can.png);
+      background-repeat: no-repeat;
+      height: 320px;
+      width: 250px;
+      text-align: right;
+      margin-top: -11%;
+      margin-left: 16%;
+      display: block;
+    }
+
+  .card_text_h1 {
+    font-family: oswaldFont;
+    font-size: 50px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 75%;
+    margin-right: 5%;
+  }
+  .card_text_h11 {
+    font-family: oswaldFont;
+    font-size: 50px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 66%;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  #row1{
+    height: 280px; 
+    background-repeat: no-repeat; 
+    background-color: rgb(2, 53, 85); 
+    border-radius: 5%;
+  }
+
+  .main_content1 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(2, 53, 85);
+  }
+  .logo_h4 { /* 标题 */
+    font-family: oswaldFont;
+    font-size: 78px;
+    text-align: left;
+    color: #b6e7f3;
+  }
+  
+  .main_content2 {
+    text-align: right;
+    margin-left: 40%;
+    margin-top: 14%;
+    margin-right: 5%;
+    color: #b6e7f3;
+  }
+  .main_text_h1 {
+    font-family: oswaldFont;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_h2 {
+    font-family: oswaldFont;
+    font-size: 18px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_p {
+    font-family: openSansFont;
+    font-size: 11px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 1.5;
+    color: #b6e7f3;
+  }
+
+  .card_text_h2 {
+    font-size: 16px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 6%;
+    margin-left: 25%;
+  }
+  .card_text_h22 {
+    font-size: 16px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 15%;
+    margin-right: 25%;
+  }
+  
+  .main_3d_image {
+      background-image: url(../assets/images/cola_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 340px;
+      width: 260px;
+      text-align: right;
+      margin-top: -7%;
+      margin-left: 48%;
+      display: block;
+    }
+    .main_3d_image22 {
+      background-image: url(../assets/images/Sprite_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 340px;
+      width: 260px;
+      text-align: left;
+      margin-top: -6%;
+      margin-left: -16%;
+      display: block;
+    }
+    .main_3d_image3 {
+      background-image: url(../assets/images/dr_pepper_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 340px;
+      width: 260px;
+      text-align: right;
+      margin-top: -8%;
+      margin-left: 44%;
+      display: block;
+    }
+
+  .card_text_h1 {
+    font-family: oswaldFont;
+    font-size: 60px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 44%;
+    margin-right: 18%;
+    padding-left: 33%;
+  }
+  .card_text_h11 {
+    font-family: oswaldFont;
+    font-size: 60px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 40%;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  #row1{
+    height: 280px; 
+    background-repeat: no-repeat; 
+    background-color: rgb(2, 53, 85); 
+    border-radius: 5%;
+  }
+
+  .main_content1 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(2, 53, 85);
+  }
+  .logo_h4 { /* 标题 */
+    font-family: oswaldFont;
+    font-size: 80px;
+    text-align: left;
+    color: #b6e7f3;
+  }
+  
+  .main_content2 {
+    text-align: right;
+    margin-left: 40%;
+    margin-top: 12%;
+    margin-right: 5%;
+    color: #b6e7f3;
+  }
+  .main_text_h1 {
+    font-family: oswaldFont;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_h2 {
+    font-family: oswaldFont;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_p {
+    font-family: openSansFont;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 1.5;
+    color: #b6e7f3;
+  }
+
+  .card_text_h2 {
+    font-size: 16px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 6%;
+    margin-left: 25%;
+  }
+  .card_text_h22 {
+    font-size: 16px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 15%;
+    margin-right: 25%;
+  }
+  
+  .main_3d_image {
+      background-image: url(../assets/images/cola_can.png);
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 380px;
+      text-align: right;
+      margin-top: -15%;
+      margin-left: 50%;
+      display: block;
+    }
+    .main_3d_image22 {
+      background-image: url(../assets/images/Sprite_can.png);
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 380px;
+      text-align: left;
+      margin-top: -15%;
+      margin-left: -14%;
+      display: block;
+    }
+    .main_3d_image3 {
+      background-image: url(../assets/images/dr_pepper_can.png);
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 380px;
+      text-align: right;
+      margin-top: -15%;
+      display: block;
+    }
+
+  .card_text_h1 {
+    font-family: oswaldFont;
+    font-size: 60px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 34%;
+    margin-right: 16%;
+    padding-left: 36%;
+  }
+  .card_text_h11 {
+    font-family: oswaldFont;
+    font-size: 60px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 5%;
+  }
+}

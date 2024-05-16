@@ -1,0 +1,1118 @@
+.body-color{
+  background-color: #004d79;
+}
+
+/* 页眉 */
+nav{
+  background-color: #b6e7f3;
+}
+
+/* 首页-方形边框 */
+#row2{
+  background-color: #004d79; 
+  border-radius: 5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+#row1{
+  height: 337px; 
+  background-repeat: no-repeat; 
+  background-color: rgb(2, 53, 85); 
+  border-radius: 5%;
+}
+
+/* models页-边框 */
+.row3{
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+X3D, x3d {
+  height: 400px;
+  width: auto;
+}
+
+/* 展览页-文字样式 */
+.card-title{
+  font-family: oswaldFont;
+  color: #b6e7f3;
+  font-size: 42px;
+}
+.card-subtitle{
+  font-family: oswaldFont;
+  color: #b6e7f3;
+  font-size: 30px;
+}
+.card-text{
+  font-family: openSansFont;
+  color: #b6e7f3;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.card-text-left{
+  border: 2px solid #b6e7f3;
+  border-radius: 2%;
+  height: 600px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card-text-right{
+  border: 2px solid #b6e7f3;
+  border-radius: 2%;
+  height: 350px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  border-bottom: 2px solid #b6e7f3;
+}
+
+/* homepage top left */
+.logo{
+  margin-top: 1%;
+}
+.logo a{
+  color: black;
+}
+.logo h1{
+  font-family: colaFont;
+  font-size: 40px;
+  margin: 0;
+  margin-left: 3px;
+  padding-left: 0px;
+  padding-top: 0;
+  padding-right: 2px;
+  text-align: left;
+}
+.logo h2{
+  font-family: colaFont;
+  font-size: 36px;
+  margin: 0;
+  margin-top: -44px;
+  margin-left: 25px;
+  padding-left: 0px;
+  padding-top: 0;
+  padding-right: 2px;
+  text-align: left;
+}
+.logo h3{
+  font-family: oswaldFont;
+  font-size: 24px;
+  margin: 0;
+  margin-top: -41px;
+  margin-left: 121px;
+  padding-left: 0px;
+  padding-top: 0;
+  padding-right: 2px;
+  text-align: left;
+}
+.logo p{
+  font-family: openSansFont;
+  font-size: 8px;
+  margin: 0;
+  margin-top: 4px;
+  margin-left: 13px;
+  padding-left: 0px;
+  padding-top: 0;
+  padding-right: 2px;
+  text-align: left;
+}
+
+/* homepage top right */
+.collapse {
+  margin-right: 30px; 
+}
+
+.navbar_cola .navbar-toggler { /* Folding nav-bar */
+  border-color: rgb(2, 53, 85);/* 折叠导航栏-边框*/
+  border-width: 3px;
+}
+.navbar_cola .navbar-toggler-icon {
+  background-image: url(../assets/images/nav-bar.png);/* 折叠导航栏-图标*/
+}
+
+.navbar_cola .navbar-nav .nav-item > a { /* nav-bar */
+  color:  rgb(2, 53, 85); /* 导航栏-字体颜色*/
+}
+
+.navbar_cola .navbar-nav > li > a:hover, 
+.navbar_cola  .navbar-nav > li > a:focus {
+  color: white;
+  background-color: rgb(2, 53, 85);
+  border: none;
+}
+
+.navbar_cola .navbar-nav .nav-item > .active, 
+.navbar_cola .navbar-nav > .active > a:hover, 
+.navbar_cola .navbar-nav > .active > a:focus {
+  color:  white; 
+  background-color: rgb(2, 53, 85);
+}
+
+.dropdown-menu {
+  font-family: openSansFont;
+  text-align: -webkit-left;
+  background-color: rgb(2, 53, 85);/* 下拉菜单-背景颜色*/
+}
+
+.dropdown-menu .dropdown-item {
+  font-family: openSansFont;
+  color: black;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: white;/* 下拉菜单-鼠标放置-文字颜色*/
+  background-color: black;/* 下拉菜单-鼠标放置-背景颜色*/
+}
+
+.nav-tabs .nav-link {
+  color: white;  
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+/* homepage middle 1 */
+.main_content1 {
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: rgb(2, 53, 85);
+}
+.logo_h4 { /* 标题 */
+  font-family: oswaldFont;
+  font-size: 72px;
+  text-align: left;
+  color: #b6e7f3;
+}
+
+.main_content2 {
+  text-align: right;
+  margin-left: 40%;
+  margin-top: 8%;
+  padding-bottom: 5%;
+  margin-right: 5%;
+  color: #b6e7f3;
+}
+.main_text_h1 {
+  font-family: oswaldFont;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+  text-align: right;
+  color: #b6e7f3;
+}
+.main_text_h2 {
+  font-family: oswaldFont;
+  font-size: 12px;
+  margin-top: -5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  text-align: right;
+  color: #b6e7f3;
+}
+.main_text_p {
+  font-family: openSansFont;
+  font-size: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  text-align: right;
+  line-height: 1.5;
+  color: #b6e7f3;
+}
+
+/* homepage middle 2 */
+.card_text_h2 {
+  font-family: oswaldFont;
+  font-size: 14px;
+  color: #b6e7f3;
+  text-align: left;
+  margin-top: 2%;
+}
+.card_text_h22 {
+  font-family: oswaldFont;
+  font-size: 14px;
+  color: #b6e7f3;
+  text-align: left;
+  margin-top: -8%;
+}
+
+.main_3d_image {
+  display: none;
+}
+
+.main_3d_image22 {
+  display: none;
+}
+.main_3d_image3 {
+  display: none;
+}
+
+.card_text_h1 {
+  font-family: oswaldFont;
+  font-size: 40px;
+  color: #b6e7f3;
+  text-align: center;
+  margin-right: 17%;
+  padding-left: 26%;
+  margin-top: -2%;
+}
+.img-btn{
+  max-width: -webkit-fill-available;
+  border-radius: 5%;
+}
+.img-btn:hover{
+  border: 1px solid #fff;
+}
+
+.card_text_h11 {
+  font-family: oswaldFont;
+  font-size: 40px;
+  color: #b6e7f3;
+  text-align: center;
+  margin-left: 26%;
+  padding-right: 15%;
+  margin-top: 3%;
+}
+
+/* footer */
+.copyright > p {
+  margin: 5px;
+  padding-top: 0px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.social {
+  margin: 10px;
+  padding: 0px;
+  width: 30%;   
+}
+
+.social > a {
+  font-size: 10px;  
+}
+
+.fa-twitter-square:before {
+  content: "\f081";
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-github-square:before {
+  content: "\f092"; 
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-google-plus-square:before {
+  content: "\f0d4"; 
+  color: black;
+  font-size: 1.5em;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+  color: black;
+  font-size: 1.5em; 
+}
+
+/* models getjsondata text style */
+
+
+/* model btns */
+.nav-tabs .nav-link {
+  color: white;  
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: white;
+  color: black;
+}
+
+/* gallery */
+.gallery-header{
+  font-family: oswaldFont;
+  color: white;  
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  margin-bottom: -5%;
+  padding-bottom: 7%;
+  padding-top: 6%;
+  padding-left: 15%;
+}
+.gallery-header:hover{
+  background-color: white;
+  color: black;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery .img-thumbnail{
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  margin: 13px;
+  max-width: 92%;
+  height: auto;
+}
+
+/* modelpage-text-style */
+.card-title-text{
+ font-family: oswaldFont;
+ color: #b6e7f3;
+ font-size: 10px;
+}
+
+/* other */
+@font-face {
+  font-family: oswaldFont;
+  src: url(../assets/fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+  font-family: openSansFont;
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: colaFont;
+  src: url(../assets/fonts/LOKICOLA.TTF);
+}
+
+@font-face {
+  font-family: Bacchus;
+  src: url(../assets/fonts/Bacchus-ExtraBold-2.TTF);
+}
+
+@media (min-width: 576px) {
+  
+  nav{
+    background-color: #b6bdf3;
+  }
+
+  .body-color{
+    background-color: #000879;
+  }
+  #row2{
+    background-color: #000879; 
+  }
+
+  #row1{
+    height: 290px; 
+    background-repeat: no-repeat; 
+    background-color: rgb(6, 2, 85); 
+    border-radius: 5%;
+  }
+
+  .row3{
+    margin-left: -5%;
+    margin-right: -5%;
+  } 
+
+  .main_content1 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(2, 53, 85);
+  }
+  .logo_h4 { /* 标题 */
+    font-family: oswaldFont;
+    font-size: 74px;
+    text-align: left;
+    color: #b6e7f3;
+  }
+  
+  .main_content2 {
+    text-align: right;
+    margin-left: 40%;
+    margin-top: 22%;
+    margin-right: 5%;
+    color: #b6e7f3;
+  }
+  .main_text_h1 {
+    font-family: oswaldFont;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_h2 {
+    font-family: oswaldFont;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_p {
+    font-family: openSansFont;
+    font-size: 7px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 1.5;
+    color: #b6e7f3;
+  }
+
+  .card_text_h2 {
+    font-size: 14px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .card_text_h22 {
+    font-size: 14px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 15%;
+    margin-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .main_3d_image {
+      background-image: url(../assets/images/cola_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 313px;
+      width: 240px;
+      text-align: right;
+      margin-top: -10%;
+      margin-left: -10%;
+      display: block;
+    }
+    .main_3d_image22 {
+      background-image: url(../assets/images/Sprite_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 320px;
+      width: 260px;
+      text-align: left;
+      margin-top: -10%;
+      display: block;
+    }
+    .main_3d_image3 {
+      background-image: url(../assets/images/dr_pepper_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 322px;
+      width: 260px;
+      text-align: right;
+      margin-top: -10%;
+      margin-left: -15%;
+      display: block;
+    }
+
+  .card_text_h1 {
+    font-family: oswaldFont;
+    font-size: 42px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 125%;
+    margin-left: -41%;
+    margin-right: 2%;
+    padding-left: 24%;
+  }
+  .card_text_h11 {
+    font-family: oswaldFont;
+    font-size: 42px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 120%;
+    margin-left: 0%;
+    margin-right: -21%;
+    padding-right: 0%;
+  }
+
+  .card-text-left{
+    border: 2px solid #b6e7f3;
+    border-radius: 2%;
+    height: 660px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .card-text-right{
+    border: 2px solid #b6e7f3;
+    border-radius: 2%;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .card-text{
+    font-family: openSansFont;
+    color: #b6e7f3;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  .gallery-header{
+    font-family: oswaldFont;
+    color: white;  
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    margin-bottom: -18%;
+    padding-bottom: 19%;
+    padding-top: 6%;
+    padding-left: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+
+  nav{
+    background-color: #dbb6f3;
+  }
+  
+  .body-color{
+    background-color: #410079;
+  }
+  #row2{
+    background-color: #410079; 
+  }
+
+  #row1{
+    height: 270px; 
+    background-repeat: no-repeat; 
+    background-color: rgb(53, 2, 85); 
+    border-radius: 5%;
+  }
+
+  .row3{
+    margin-left: -4%;
+    margin-right: -4%;
+  } 
+
+  .main_content1 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(2, 53, 85);
+  }
+  .logo_h4 { /* 标题 */
+    font-family: oswaldFont;
+    font-size: 76px;
+    text-align: left;
+    color: #b6e7f3;
+  }
+  
+  .main_content2 {
+    text-align: right;
+    margin-left: 40%;
+    margin-top: 17%;
+    margin-right: 5%;
+    color: #b6e7f3;
+  }
+  .main_text_h1 {
+    font-family: oswaldFont;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_h2 {
+    font-family: oswaldFont;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_p {
+    font-family: openSansFont;
+    font-size: 9px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 1.5;
+    color: #b6e7f3;
+  }
+
+  .card_text_h2 {
+    font-size: 14px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 17%;
+  }
+  .card_text_h22 {
+    font-size: 14px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 16%;
+    margin-right: 9%;
+  }
+  
+  .main_3d_image {
+      background-image: url(../assets/images/cola_can.png);
+      background-repeat: no-repeat;
+      height: 320px;
+      width: 250px;
+      text-align: right;
+      margin-top: -10%;
+      margin-left: 26%;
+      display: block;
+    }
+    .main_3d_image22 {
+      background-image: url(../assets/images/Sprite_can.png);
+      background-repeat: no-repeat;
+      height: 320px;
+      width: 250px;
+      text-align: left;
+      margin-top: -10%;
+      margin-left: -5%;
+      display: block;
+    }
+    .main_3d_image3 {
+      background-image: url(../assets/images/dr_pepper_can.png);
+      background-repeat: no-repeat;
+      height: 320px;
+      width: 250px;
+      text-align: right;
+      margin-top: -11%;
+      margin-left: 25%;
+      display: block;
+    }
+
+  .card_text_h1 {
+    font-family: oswaldFont;
+    font-size: 50px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 64%;
+    margin-right: 4%;
+    margin-left: -25%;
+  }
+  .card_text_h11 {
+    font-family: oswaldFont;
+    font-size: 50px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 60%;
+    margin-left: 4%;
+    margin-right: -4%;
+  }
+
+  .card-text-left{
+    border: 2px solid #b6e7f3;
+    border-radius: 2%;
+    height: 660px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card-text-right{
+    border: 2px solid #b6e7f3;
+    border-radius: 2%;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .card-text{
+    font-family: openSansFont;
+    color: #b6e7f3;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .gallery-header{
+    font-family: oswaldFont;
+    color: white;  
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    margin-bottom: -12%;
+    padding-bottom: 11%;
+    padding-top: 6%;
+    padding-left: 15%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  nav{
+    background-color: #f3b6ec;
+  }
+  
+  .body-color{
+    background-color: #790071;
+  }
+  #row2{
+    background-color: #790071; 
+  }
+
+  #row1{
+    height: 280px; 
+    background-repeat: no-repeat; 
+    background-color: rgb(84, 2, 85); 
+    border-radius: 5%;
+  }
+
+  .row3{
+    margin-left: -3%;
+    margin-right: -3%;
+  } 
+
+  .main_content1 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(2, 53, 85);
+  }
+  .logo_h4 { /* 标题 */
+    font-family: oswaldFont;
+    font-size: 78px;
+    text-align: left;
+    color: #b6e7f3;
+  }
+  
+  .main_content2 {
+    text-align: right;
+    margin-left: 40%;
+    margin-top: 14%;
+    margin-right: 5%;
+    color: #b6e7f3;
+  }
+  .main_text_h1 {
+    font-family: oswaldFont;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_h2 {
+    font-family: oswaldFont;
+    font-size: 18px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_p {
+    font-family: openSansFont;
+    font-size: 11px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 1.5;
+    color: #b6e7f3;
+  }
+
+  .card_text_h2 {
+    font-size: 16px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 6%;
+    margin-left: 25%;
+  }
+  .card_text_h22 {
+    font-size: 16px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 15%;
+    margin-right: 25%;
+  }
+  
+  .main_3d_image {
+      background-image: url(../assets/images/cola_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 340px;
+      width: 260px;
+      text-align: right;
+      margin-top: -7%;
+      margin-left: 48%;
+      display: block;
+    }
+    .main_3d_image22 {
+      background-image: url(../assets/images/Sprite_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 340px;
+      width: 260px;
+      text-align: left;
+      margin-top: -6%;
+      margin-left: -7%;
+      display: block;
+    }
+    .main_3d_image3 {
+      background-image: url(../assets/images/dr_pepper_can.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 340px;
+      width: 260px;
+      text-align: right;
+      margin-top: -8%;
+      margin-left: 48%;
+      display: block;
+    }
+
+  .card_text_h1 {
+    font-family: oswaldFont;
+    font-size: 60px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 37%;
+    margin-right: 10%;
+    padding-left: 40%;
+  }
+  .card_text_h11 {
+    font-family: oswaldFont;
+    font-size: 60px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 33%;
+    margin-left: 10%;
+    margin-right: 8%;
+  }
+
+  .card-text-left{
+    border: 2px solid #b6e7f3;
+    border-radius: 2%;
+    height: 700px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card-text-right{
+    border: 2px solid #b6e7f3;
+    border-radius: 2%;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .card-text{
+    font-family: openSansFont;
+    color: #b6e7f3;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .gallery-header{
+    font-family: oswaldFont;
+    color: white;  
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    margin-bottom: -7%;
+    padding-bottom: 3%;
+    padding-top: 6%;
+    padding-left: 15%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  nav{
+    background-color: #f3b6c8;
+  }
+  
+  .body-color{
+    background-color: #790022;
+  }
+  #row2{
+    background-color: #790022; 
+  }
+
+  #row1{
+    height: 280px; 
+    background-repeat: no-repeat; 
+    background-color: rgb(85, 2, 34); 
+    border-radius: 5%;
+  }
+
+  .row3{
+    margin-left: -3%;
+    margin-right: -3%;
+  }  
+
+  .main_content1 {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(2, 53, 85);
+  }
+  .logo_h4 { /* 标题 */
+    font-family: oswaldFont;
+    font-size: 80px;
+    text-align: left;
+    color: #b6e7f3;
+  }
+  
+  .main_content2 {
+    text-align: right;
+    margin-left: 40%;
+    margin-top: 12%;
+    margin-right: 5%;
+    color: #b6e7f3;
+  }
+  .main_text_h1 {
+    font-family: oswaldFont;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_h2 {
+    font-family: oswaldFont;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: #b6e7f3;
+  }
+  .main_text_p {
+    font-family: openSansFont;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: right;
+    line-height: 1.5;
+    color: #b6e7f3;
+  }
+
+  .card_text_h2 {
+    font-size: 16px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 6%;
+    margin-left: 25%;
+  }
+  .card_text_h22 {
+    font-size: 16px;
+    color: #b6e7f3;
+    text-align: left;
+    margin-top: 15%;
+    margin-right: 25%;
+  }
+  
+  .main_3d_image {
+      background-image: url(../assets/images/cola_can.png);
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 380px;
+      text-align: right;
+      margin-top: -15%;
+      margin-left: 50%;
+      display: block;
+    }
+    .main_3d_image22 {
+      background-image: url(../assets/images/Sprite_can.png);
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 380px;
+      text-align: left;
+      margin-top: -15%;
+      margin-left: -2%;
+      display: block;
+    }
+    .main_3d_image3 {
+      background-image: url(../assets/images/dr_pepper_can.png);
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 380px;
+      text-align: right;
+      margin-top: -15%;
+      display: block;
+    }
+
+  .card_text_h1 {
+    font-family: oswaldFont;
+    font-size: 60px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 27%;
+    margin-right: 16%;
+    padding-left: 42%;
+  }
+  .card_text_h11 {
+    font-family: oswaldFont;
+    font-size: 60px;
+    color: #b6e7f3;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 25%;
+  }
+
+  .card-text-left{
+    border: 2px solid #b6e7f3;
+    border-radius: 2%;
+    height: 700px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card-text-right{
+    border: 2px solid #b6e7f3;
+    border-radius: 2%;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .card-text{
+    font-family: openSansFont;
+    color: #b6e7f3;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .gallery-header{
+    font-family: oswaldFont;
+    color: white;  
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    margin-bottom: -7%;
+    padding-bottom: 3%;
+    padding-top: 6%;
+    padding-left: 15%;
+  }
+}
