@@ -5,35 +5,53 @@ $(document).ready(function(){
 	 $.getJSON('application/model/data.json', function(jsonObj) {
 		console.log(jsonObj);
 		
-		//Get the home page main text data
+		//Get the home page title text data
 		$('#title_home').html('<h1>' + jsonObj.pageTextData[0].title + '<h2>');
 		$('#subTitle_home').html('<h2>' + jsonObj.pageTextData[0].subTitle + '</h3>');
 		$('#description_home').html('<p>' + jsonObj.pageTextData[0].description + '</p>');
 		
+		//Get the home page content text data
 		$('#description_left').html('<p>' + jsonObj.pageTextData[1].description + '</p>');	
 		$('#description_centre').html('<p>' + jsonObj.pageTextData[2].description + '</p>');
 		$('#description_right').html('<p>' + jsonObj.pageTextData[3].description + '</p>');	
 
+		//Get the coke main text data
 		$('#x3dModelTitle_coke').html('<h2>' + jsonObj.pageTextData[4].x3dModelTitle + '<h2>');
 		$('#description_coke').html('<p>' + jsonObj.pageTextData[4].description + '</p>');
+		$('#title_coke').html('<h2>' + jsonObj.pageTextData[4].title + '<h2>');
+		$('#subTitle_coke').html('<h3>' + jsonObj.pageTextData[4].subTitle + '</h3>');
+		$('#cardDescription_coke').html('<p>' + jsonObj.pageTextData[4].cardDescription + '</p>');
 
+		//Get the sprite main text data
 		$('#x3dModelTitle_sprite').html('<h2>' + jsonObj.pageTextData[5].x3dModelTitle + '<h2>');
 		$('#description_sprite').html('<p>' + jsonObj.pageTextData[5].description + '</p>');
+		$('#title_sprite').html('<h2>' + jsonObj.pageTextData[5].title + '<h2>');
+		$('#subTitle_sprite').html('<h3>' + jsonObj.pageTextData[5].subTitle + '</h3>');
+		$('#cardDescription_sprite').html('<p>' + jsonObj.pageTextData[5].cardDescription + '</p>');
 
+		//Get the pepper main text data
 		$('#x3dModelTitle_pepper').html('<h2>' + jsonObj.pageTextData[6].x3dModelTitle + '<h2>');
 		$('#description_pepper').html('<p>' + jsonObj.pageTextData[6].description + '</p>');
+		$('#title_pepper').html('<h2>' + jsonObj.pageTextData[6].title + '<h2>');
+		$('#subTitle_pepper').html('<h3>' + jsonObj.pageTextData[6].subTitle + '</h3>');
+		$('#cardDescription_pepper').html('<p>' + jsonObj.pageTextData[6].cardDescription + '</p>');
 
+		//Get the gallery contents data
 		$('#title_gallery').html('<h2>' + jsonObj.pageTextData[7].galleryTitle + '<h2>');
 		$('#description_gallery').html('<p>' + jsonObj.pageTextData[7].galleryDescription + '</p>');
 		
+		//Get camera contents data
 		$('#x3dCameraTitle').html('<h2>' + jsonObj.pageTextData[8].CameraTitle + '<h2>');
 		$('#x3dCameraSubtitle').html('<p>' + jsonObj.pageTextData[8].CameraSubtitle + '<p');
 
+		//Get animation contents data
 		$('#x3dAnimationTitle').html('<h2>' + jsonObj.pageTextData[9].AnimationTitle + '<h2>');
 		$('#x3dAnimationSubtitle').html('<p>' + jsonObj.pageTextData[9].AnimationSubtitle + '<p');
 
+		//Get light contents data
 		$('#x3dLightTitle').html('<h2>' + jsonObj.pageTextData[10].LightTitle + '<h2>');
 		$('#x3dLightSubtitle').html('<p>' + jsonObj.pageTextData[10].LightSubtitle + '<p');
+
 		/*
 		//Get the home page main text data
 		$('#title_home').html('<h1>' + jsonObj.pageTextData[0].title + '<h2>');

@@ -1,87 +1,23 @@
+/* body */
 .body-color{
   background-color: #004d79;
 }
 
-/* 页眉 */
+/* header-box */
 nav{
   background-color: #b6e7f3;
 }
 
-/* 首页-方形边框 */
-#row2{
-  background-color: #004d79; 
-  border-radius: 5%;
-  margin-top: 2%;
-  margin-bottom: 5%;
-}
-
-#row1{
-  height: 337px; 
-  background-repeat: no-repeat; 
-  background-color: rgb(2, 53, 85); 
-  border-radius: 5%;
-}
-
-/* models页-边框 */
-.row3{
-  margin-left: 2%;
-  margin-right: 2%;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-X3D, x3d {
-  height: 400px;
-  width: auto;
-}
-
-/* 展览页-文字样式 */
-.card-title{
-  font-family: oswaldFont;
-  color: #b6e7f3;
-  font-size: 42px;
-}
-.card-subtitle{
-  font-family: oswaldFont;
-  color: #b6e7f3;
-  font-size: 30px;
-}
-.card-text{
-  font-family: openSansFont;
-  color: #b6e7f3;
-  font-size: 13px;
-  margin-top: 10px;
-}
-.card-text-left{
-  border: 2px solid #b6e7f3;
-  border-radius: 2%;
-  height: 600px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.card-text-right{
-  border: 2px solid #b6e7f3;
-  border-radius: 2%;
-  height: 350px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-#card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  border-bottom: 2px solid #b6e7f3;
-}
-
-/* homepage top left */
+/* header-logo-box */
 .logo{
   margin-top: 1%;
 }
+
+/* header-logo-text */
 .logo a{
   color: black;
 }
+
 .logo h1{
   font-family: colaFont;
   font-size: 40px;
@@ -92,6 +28,7 @@ X3D, x3d {
   padding-right: 2px;
   text-align: left;
 }
+
 .logo h2{
   font-family: colaFont;
   font-size: 36px;
@@ -103,6 +40,7 @@ X3D, x3d {
   padding-right: 2px;
   text-align: left;
 }
+
 .logo h3{
   font-family: oswaldFont;
   font-size: 24px;
@@ -114,6 +52,7 @@ X3D, x3d {
   padding-right: 2px;
   text-align: left;
 }
+
 .logo p{
   font-family: openSansFont;
   font-size: 8px;
@@ -126,21 +65,28 @@ X3D, x3d {
   text-align: left;
 }
 
-/* homepage top right */
+/* header-navbar-box */
 .collapse {
   margin-right: 30px; 
 }
 
-.navbar_cola .navbar-toggler { /* Folding nav-bar */
-  border-color: rgb(2, 53, 85);/* 折叠导航栏-边框*/
+/* header-navbar-folding img*/
+.navbar_cola .navbar-toggler-icon {
+  background-image: url(../assets/images/nav-bar.png);
+}
+/* header-navbar-folding boder*/
+.navbar_cola .navbar-toggler {
+  border-color: rgb(2, 53, 85);
   border-width: 3px;
 }
-.navbar_cola .navbar-toggler-icon {
-  background-image: url(../assets/images/nav-bar.png);/* 折叠导航栏-图标*/
+
+.navbar_cola .navbar-toggler:hover {
+  border-color: #0167d3;
 }
 
-.navbar_cola .navbar-nav .nav-item > a { /* nav-bar */
-  color:  rgb(2, 53, 85); /* 导航栏-字体颜色*/
+/* header-navbar-item */
+.navbar_cola .navbar-nav .nav-item > a { 
+  color:  rgb(2, 53, 85); 
 }
 
 .navbar_cola .navbar-nav > li > a:hover, 
@@ -157,42 +103,31 @@ X3D, x3d {
   background-color: rgb(2, 53, 85);
 }
 
-.dropdown-menu {
-  font-family: openSansFont;
-  text-align: -webkit-left;
-  background-color: rgb(2, 53, 85);/* 下拉菜单-背景颜色*/
+/* home page-title box */
+.row2{
+  background-color: #004d79; 
+  border-radius: 5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
-.dropdown-menu .dropdown-item {
-  font-family: openSansFont;
-  color: black;
+/* home page-content box */
+.row1{
+  height: 337px; 
+  background-repeat: no-repeat; 
+  background-color: rgb(2, 53, 85); 
+  border-radius: 5%;
 }
 
-.dropdown-menu .dropdown-item:hover {
-  color: white;/* 下拉菜单-鼠标放置-文字颜色*/
-  background-color: black;/* 下拉菜单-鼠标放置-背景颜色*/
-}
-
-.nav-tabs .nav-link {
-  color: white;  
-  border: 1px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-
-/* homepage middle 1 */
+/* home page-title text */
 .main_content1 {
   text-align: left;
   margin-left: 20%;
   margin-top: 10%;
   margin-bottom: 10%;
   color: rgb(2, 53, 85);
-}
-.logo_h4 { /* 标题 */
-  font-family: oswaldFont;
-  font-size: 72px;
-  text-align: left;
-  color: #b6e7f3;
 }
 
 .main_content2 {
@@ -203,6 +138,14 @@ X3D, x3d {
   margin-right: 5%;
   color: #b6e7f3;
 }
+
+.logo_h4 { 
+  font-family: oswaldFont;
+  font-size: 72px;
+  text-align: left;
+  color: #b6e7f3;
+}
+
 .main_text_h1 {
   font-family: oswaldFont;
   font-size: 20px;
@@ -211,6 +154,7 @@ X3D, x3d {
   text-align: right;
   color: #b6e7f3;
 }
+
 .main_text_h2 {
   font-family: oswaldFont;
   font-size: 12px;
@@ -220,6 +164,7 @@ X3D, x3d {
   text-align: right;
   color: #b6e7f3;
 }
+
 .main_text_p {
   font-family: openSansFont;
   font-size: 5px;
@@ -231,7 +176,7 @@ X3D, x3d {
   color: #b6e7f3;
 }
 
-/* homepage middle 2 */
+/* home page-content text & img & btn */
 .card_text_h2 {
   font-family: oswaldFont;
   font-size: 14px;
@@ -239,12 +184,33 @@ X3D, x3d {
   text-align: left;
   margin-top: 2%;
 }
+
 .card_text_h22 {
   font-family: oswaldFont;
   font-size: 14px;
   color: #b6e7f3;
   text-align: left;
   margin-top: -8%;
+}
+
+.card_text_h1 {
+  font-family: oswaldFont;
+  font-size: 40px;
+  color: #b6e7f3;
+  text-align: center;
+  margin-right: 17%;
+  padding-left: 26%;
+  margin-top: -2%;
+}
+
+.card_text_h11 {
+  font-family: oswaldFont;
+  font-size: 40px;
+  color: #b6e7f3;
+  text-align: center;
+  margin-left: 26%;
+  padding-right: 15%;
+  margin-top: 3%;
 }
 
 .main_3d_image {
@@ -258,31 +224,150 @@ X3D, x3d {
   display: none;
 }
 
-.card_text_h1 {
-  font-family: oswaldFont;
-  font-size: 40px;
-  color: #b6e7f3;
-  text-align: center;
-  margin-right: 17%;
-  padding-left: 26%;
-  margin-top: -2%;
-}
 .img-btn{
   max-width: -webkit-fill-available;
   border-radius: 5%;
 }
+
 .img-btn:hover{
   border: 1px solid #fff;
 }
 
-.card_text_h11 {
-  font-family: oswaldFont;
-  font-size: 40px;
+/* models page-description-box */
+.row3{
+  margin-left: -5%;
+  margin-right: -5%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* models page-card */
+.card-text-left{
+  background-color: #004d79;
+  border: 2px solid #b6e7f3;
+  border-radius: 2%;
+  height: 600px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-text-right{
+  background-color: #004d79;
+  border: 2px solid #b6e7f3;
+  border-radius: 2%;
+  height: 236px;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 114px;
+  margin-bottom: 10px;
+}
+
+.card-text-middle{
+  background-color: #004d79;
+  overflow: hidden;
+  border: 2px solid #b6e7f3;
+  border-radius: 2%;
+  height: 353px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  border-bottom: 2px solid #b6e7f3;
+}
+
+/* models page-btn */
+.nav-tabs .nav-link {
+  color: white;  
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: white;
+  color: black;
+}
+
+/* models page-btn-dropdown menu */
+.dropdown-menu {
+  font-family: openSansFont;
+  text-align: -webkit-left;
+  background-color: rgb(2, 53, 85);
+}
+
+.dropdown-menu .dropdown-item {
+  font-family: openSansFont;
+  color: black;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: white;
+  background-color: black;
+}
+
+/* models page-x3d */
+X3D, x3d {
+  height: 400px;
+  width: auto;
+}
+
+/* models page-x3d-text */
+.card-text{
+  font-family: openSansFont;
   color: #b6e7f3;
-  text-align: center;
-  margin-left: 26%;
-  padding-right: 15%;
-  margin-top: 3%;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.card-title{
+  font-family: oswaldFont;
+  color: #b6e7f3;
+  font-size: 42px;
+}
+
+.card-subtitle{
+  font-family: oswaldFont;
+  color: #b6e7f3;
+  font-size: 30px;
+}
+
+/* models page-gallery */
+.gallery-header{
+  font-family: oswaldFont;
+    font-size: 26px;
+    background-color: white;
+    color: black;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    margin-bottom: -1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 1%;
+    padding-left: 3%;
+    margin-right: 86%;
+}
+
+.img-thumbnail {
+  padding: 0rem;
+  margin-top: 0px;
+  background-color: #fff;
+  border: 1px solid #dee2e6; 
+  border-radius: 0rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery .img-thumbnail{
+  background-color: rgba(255, 255, 255, 0.0);
+  padding: 0rem;
+  margin: 5px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 21%;
+  height: auto;
 }
 
 /* footer */
@@ -321,72 +406,19 @@ X3D, x3d {
   font-size: 1.5em;
 }
 
+.fa-google-plus-square:before {
+  content: "\f0d4"; 
+  color: black;
+  font-size: 1.5em;
+}
+
 .fa-facebook-square:before {
   content: "\f082";
   color: black;
   font-size: 1.5em; 
 }
 
-/* models getjsondata text style */
-
-
-/* model btns */
-.nav-tabs .nav-link {
-  color: white;  
-  border: 1px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-
-.nav-tabs .nav-link:hover {
-  background-color: white;
-  color: black;
-}
-
-/* gallery */
-.gallery-header{
-  font-family: oswaldFont;
-  color: white;  
-  border: 1px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  margin-bottom: -5%;
-  padding-bottom: 7%;
-  padding-top: 6%;
-  padding-left: 15%;
-}
-.gallery-header:hover{
-  background-color: white;
-  color: black;
-}
-
-.img-thumbnail {
-  padding: 0.25rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
-  height: auto;
-}
-
-.gallery .img-thumbnail{
-  border-radius: 0.25rem;
-  padding: 0.25rem;
-  margin: 13px;
-  max-width: 92%;
-  height: auto;
-}
-
-/* modelpage-text-style */
-.card-title-text{
- font-family: oswaldFont;
- color: #b6e7f3;
- font-size: 10px;
-}
-
-/* other */
+/* font */
 @font-face {
   font-family: oswaldFont;
   src: url(../assets/fonts/Oswald-Regular.ttf);
@@ -407,94 +439,94 @@ X3D, x3d {
   src: url(../assets/fonts/Bacchus-ExtraBold-2.TTF);
 }
 
+/* equipment size adaptation */
 @media (min-width: 576px) {
-  
-  nav{
-    background-color: #b6bdf3;
-  }
 
   .body-color{
     background-color: #000879;
   }
-  #row2{
+
+  nav{
+    background-color: #b6bdf3;
+  }
+
+  .row2{
     background-color: #000879; 
   }
 
-  #row1{
+  .row1{
     height: 290px; 
-    background-repeat: no-repeat; 
     background-color: rgb(6, 2, 85); 
-    border-radius: 5%;
   }
 
   .row3{
-    margin-left: -5%;
-    margin-right: -5%;
+    margin-left: -8%;
+    margin-right: -8%;
   } 
 
   .main_content1 {
-    text-align: left;
     margin-left: 20%;
     margin-top: 10%;
     margin-bottom: 10%;
-    color: rgb(2, 53, 85);
-  }
-  .logo_h4 { /* 标题 */
-    font-family: oswaldFont;
-    font-size: 74px;
-    text-align: left;
-    color: #b6e7f3;
   }
   
   .main_content2 {
-    text-align: right;
     margin-left: 40%;
     margin-top: 22%;
     margin-right: 5%;
-    color: #b6e7f3;
   }
+
+  .logo_h4 { /* 标题 */
+    font-size: 74px;
+  }
+
   .main_text_h1 {
-    font-family: oswaldFont;
     font-size: 22px;
     margin-top: 5px;
     margin-right: 10px;
-    text-align: right;
-    color: #b6e7f3;
   }
+
   .main_text_h2 {
-    font-family: oswaldFont;
     font-size: 14px;
     margin-top: -5px;
     margin-right: 10px;
     margin-bottom: 5px;
-    text-align: right;
-    color: #b6e7f3;
   }
+
   .main_text_p {
-    font-family: openSansFont;
     font-size: 7px;
     margin-right: 10px;
     margin-bottom: 5px;
     margin-top: 10px;
-    text-align: right;
-    line-height: 1.5;
-    color: #b6e7f3;
   }
 
   .card_text_h2 {
     font-size: 14px;
-    color: #b6e7f3;
-    text-align: left;
     margin-top: 5%;
     margin-left: 5%;
   }
+
   .card_text_h22 {
     font-size: 14px;
-    color: #b6e7f3;
-    text-align: left;
     margin-top: 15%;
     margin-right: 5%;
     padding-left: 5%;
+  }
+  
+  .card_text_h1 {
+    font-size: 42px;
+    margin-top: 125%;
+    margin-left: -41%;
+    margin-right: 2%;
+    padding-left: 24%;
+  }
+
+  .card_text_h11 {
+    font-size: 42px;
+    margin-top: 120%;
+    margin-left: 0%;
+    margin-right: -21%;
+    padding-right: 0%;
   }
   
   .main_3d_image {
@@ -508,6 +540,7 @@ X3D, x3d {
       margin-left: -10%;
       display: block;
     }
+
     .main_3d_image22 {
       background-image: url(../assets/images/Sprite_can.png);
       background-repeat: no-repeat;
@@ -518,6 +551,7 @@ X3D, x3d {
       margin-top: -10%;
       display: block;
     }
+
     .main_3d_image3 {
       background-image: url(../assets/images/dr_pepper_can.png);
       background-repeat: no-repeat;
@@ -530,153 +564,125 @@ X3D, x3d {
       display: block;
     }
 
-  .card_text_h1 {
-    font-family: oswaldFont;
-    font-size: 42px;
-    color: #b6e7f3;
-    text-align: center;
-    margin-top: 125%;
-    margin-left: -41%;
-    margin-right: 2%;
-    padding-left: 24%;
-  }
-  .card_text_h11 {
-    font-family: oswaldFont;
-    font-size: 42px;
-    color: #b6e7f3;
-    text-align: center;
-    margin-top: 120%;
-    margin-left: 0%;
-    margin-right: -21%;
-    padding-right: 0%;
+  .card-text-left{
+    background-color: #000879;
+    height: 822px;
+    margin-top: 10px;
+    margin-left: -17px;
+    margin-right: -6px;
   }
 
-  .card-text-left{
-    border: 2px solid #b6e7f3;
-    border-radius: 2%;
-    height: 660px;
-    margin-top: 10px;
-    margin-left: 3px;
-    margin-right: 3px;
-  }
   .card-text-right{
-    border: 2px solid #b6e7f3;
-    border-radius: 2%;
-    height: 450px;
+    background-color: #000879;
+    height: 272px;
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: -5px;
+    margin-bottom: -6px;
   }
+
+  .card-text-middle{
+    background-color: #000879;
+  }
+
   .card-text{
-    font-family: openSansFont;
-    color: #b6e7f3;
     font-size: 11px;
     margin-top: 10px;
   }
 
-  .gallery-header{
-    font-family: oswaldFont;
-    color: white;  
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    margin-bottom: -18%;
-    padding-bottom: 19%;
-    padding-top: 6%;
-    padding-left: 15%;
+  .gallery .img-thumbnail{
+    max-width: 13%;
   }
 }
 
 @media (min-width: 768px) {
 
-  nav{
-    background-color: #dbb6f3;
-  }
-  
   .body-color{
     background-color: #410079;
   }
-  #row2{
+
+  nav{
+    background-color: #dbb6f3;
+  }
+
+  .row2{
     background-color: #410079; 
   }
 
-  #row1{
+  .row1{
     height: 270px; 
-    background-repeat: no-repeat; 
     background-color: rgb(53, 2, 85); 
-    border-radius: 5%;
   }
 
   .row3{
-    margin-left: -4%;
-    margin-right: -4%;
+    margin-left: -7%;
+    margin-right: -7%;
   } 
 
   .main_content1 {
-    text-align: left;
     margin-left: 20%;
     margin-top: 10%;
     margin-bottom: 10%;
-    color: rgb(2, 53, 85);
-  }
-  .logo_h4 { /* 标题 */
-    font-family: oswaldFont;
-    font-size: 76px;
-    text-align: left;
-    color: #b6e7f3;
   }
   
   .main_content2 {
-    text-align: right;
     margin-left: 40%;
     margin-top: 17%;
     margin-right: 5%;
-    color: #b6e7f3;
   }
+
+  .logo_h4 { /* 标题 */
+
+    font-size: 76px;
+  }
+
   .main_text_h1 {
-    font-family: oswaldFont;
     font-size: 24px;
     margin-top: 5px;
     margin-right: 10px;
-    text-align: right;
-    color: #b6e7f3;
   }
+
   .main_text_h2 {
-    font-family: oswaldFont;
+
     font-size: 20px;
     margin-top: -5px;
     margin-right: 10px;
     margin-bottom: 5px;
-    text-align: right;
-    color: #b6e7f3;
   }
+
   .main_text_p {
-    font-family: openSansFont;
     font-size: 9px;
     margin-right: 10px;
     margin-bottom: 5px;
     margin-top: 10px;
-    text-align: right;
-    line-height: 1.5;
-    color: #b6e7f3;
   }
 
   .card_text_h2 {
     font-size: 14px;
-    color: #b6e7f3;
-    text-align: left;
     margin-top: 8%;
     margin-left: 17%;
   }
+
   .card_text_h22 {
     font-size: 14px;
-    color: #b6e7f3;
-    text-align: left;
     margin-top: 16%;
     margin-right: 9%;
   }
   
+  .card_text_h1 {
+    font-size: 50px;
+    margin-top: 64%;
+    margin-right: 4%;
+    margin-left: -25%;
+  }
+
+  .card_text_h11 {
+    font-size: 50px;
+    margin-top: 60%;
+    margin-left: 4%;
+    margin-right: -4%;
+  }
+
   .main_3d_image {
       background-image: url(../assets/images/cola_can.png);
       background-repeat: no-repeat;
@@ -687,6 +693,7 @@ X3D, x3d {
       margin-left: 26%;
       display: block;
     }
+
     .main_3d_image22 {
       background-image: url(../assets/images/Sprite_can.png);
       background-repeat: no-repeat;
@@ -697,6 +704,7 @@ X3D, x3d {
       margin-left: -5%;
       display: block;
     }
+
     .main_3d_image3 {
       background-image: url(../assets/images/dr_pepper_can.png);
       background-repeat: no-repeat;
@@ -708,151 +716,123 @@ X3D, x3d {
       display: block;
     }
 
-  .card_text_h1 {
-    font-family: oswaldFont;
-    font-size: 50px;
-    color: #b6e7f3;
-    text-align: center;
-    margin-top: 64%;
-    margin-right: 4%;
-    margin-left: -25%;
-  }
-  .card_text_h11 {
-    font-family: oswaldFont;
-    font-size: 50px;
-    color: #b6e7f3;
-    text-align: center;
-    margin-top: 60%;
-    margin-left: 4%;
-    margin-right: -4%;
-  }
-
   .card-text-left{
-    border: 2px solid #b6e7f3;
-    border-radius: 2%;
-    height: 660px;
+    background-color: #410079; 
+    height: 825px;
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .card-text-right{
-    border: 2px solid #b6e7f3;
-    border-radius: 2%;
-    height: 350px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-  .card-text{
-    font-family: openSansFont;
-    color: #b6e7f3;
-    font-size: 13px;
-    margin-top: 10px;
+    margin-left: -29px;
+    margin-right: -6px;
   }
 
-  .gallery-header{
-    font-family: oswaldFont;
-    color: white;  
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    margin-bottom: -12%;
-    padding-bottom: 11%;
-    padding-top: 6%;
-    padding-left: 15%;
+  .card-text-right{
+    background-color: #410079; 
+    height: 273px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: -8px;
+    margin-bottom: -6px;
+  }
+
+  .card-text-middle{
+    background-color: #410079; 
+  }
+
+  .card-text{
+    font-size: 13px;
+    margin-top: 4px;
+  }
+
+  .gallery .img-thumbnail{
+    max-width: 14%;
   }
 }
 
 @media (min-width: 992px) {
 
+  .body-color{
+    background-color: #790071;
+  }
+
   nav{
     background-color: #f3b6ec;
   }
   
-  .body-color{
-    background-color: #790071;
-  }
-  #row2{
+  .row2{
     background-color: #790071; 
   }
 
-  #row1{
+  .row1{
     height: 280px; 
-    background-repeat: no-repeat; 
     background-color: rgb(84, 2, 85); 
-    border-radius: 5%;
   }
 
   .row3{
-    margin-left: -3%;
-    margin-right: -3%;
+    margin-left: -4%;
+    margin-right: -4%;
   } 
 
   .main_content1 {
-    text-align: left;
     margin-left: 20%;
     margin-top: 10%;
     margin-bottom: 10%;
-    color: rgb(2, 53, 85);
-  }
-  .logo_h4 { /* 标题 */
-    font-family: oswaldFont;
-    font-size: 78px;
-    text-align: left;
-    color: #b6e7f3;
   }
   
   .main_content2 {
-    text-align: right;
     margin-left: 40%;
     margin-top: 14%;
     margin-right: 5%;
-    color: #b6e7f3;
   }
+
+  .logo_h4 { /* 标题 */
+    font-size: 78px;
+  }
+
   .main_text_h1 {
-    font-family: oswaldFont;
     font-size: 26px;
     margin-top: 5px;
     margin-right: 10px;
-    text-align: right;
-    color: #b6e7f3;
   }
+
   .main_text_h2 {
-    font-family: oswaldFont;
     font-size: 18px;
     margin-top: -5px;
     margin-right: 10px;
     margin-bottom: 5px;
-    text-align: right;
-    color: #b6e7f3;
   }
+
   .main_text_p {
-    font-family: openSansFont;
     font-size: 11px;
     margin-right: 10px;
     margin-bottom: 5px;
     margin-top: 10px;
-    text-align: right;
-    line-height: 1.5;
-    color: #b6e7f3;
   }
 
   .card_text_h2 {
     font-size: 16px;
-    color: #b6e7f3;
-    text-align: left;
     margin-top: 6%;
     margin-left: 25%;
   }
+
   .card_text_h22 {
     font-size: 16px;
-    color: #b6e7f3;
-    text-align: left;
     margin-top: 15%;
     margin-right: 25%;
   }
   
+  .card_text_h1 {
+    font-size: 60px;
+    margin-top: 37%;
+    margin-right: 10%;
+    padding-left: 40%;
+  }
+
+  .card_text_h11 {
+    font-size: 60px;
+    margin-top: 33%;
+    margin-left: 10%;
+    margin-right: 8%;
+  }
+
   .main_3d_image {
       background-image: url(../assets/images/cola_can.png);
       background-repeat: no-repeat;
@@ -864,6 +844,7 @@ X3D, x3d {
       margin-left: 48%;
       display: block;
     }
+
     .main_3d_image22 {
       background-image: url(../assets/images/Sprite_can.png);
       background-repeat: no-repeat;
@@ -875,6 +856,7 @@ X3D, x3d {
       margin-left: -7%;
       display: block;
     }
+
     .main_3d_image3 {
       background-image: url(../assets/images/dr_pepper_can.png);
       background-repeat: no-repeat;
@@ -887,149 +869,120 @@ X3D, x3d {
       display: block;
     }
 
-  .card_text_h1 {
-    font-family: oswaldFont;
-    font-size: 60px;
-    color: #b6e7f3;
-    text-align: center;
-    margin-top: 37%;
-    margin-right: 10%;
-    padding-left: 40%;
-  }
-  .card_text_h11 {
-    font-family: oswaldFont;
-    font-size: 60px;
-    color: #b6e7f3;
-    text-align: center;
-    margin-top: 33%;
-    margin-left: 10%;
-    margin-right: 8%;
-  }
-
   .card-text-left{
-    border: 2px solid #b6e7f3;
-    border-radius: 2%;
+    background-color: #790071; 
     height: 700px;
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: -12px;
+    margin-right: -15px;
   }
+
   .card-text-right{
-    border: 2px solid #b6e7f3;
-    border-radius: 2%;
-    height: 350px;
+    background-color: #790071; 
+    height: 227px;
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 1px;
+    margin-bottom: 0px;
   }
+
+  .card-text-middle{
+    background-color: #790071; 
+  }
+
   .card-text{
-    font-family: openSansFont;
-    color: #b6e7f3;
     font-size: 13px;
     margin-top: 10px;
   }
 
-  .gallery-header{
-    font-family: oswaldFont;
-    color: white;  
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    margin-bottom: -7%;
-    padding-bottom: 3%;
-    padding-top: 6%;
-    padding-left: 15%;
+  .gallery .img-thumbnail{
+    max-width: 15%;
   }
 }
 
 @media (min-width: 1200px) {
 
-  nav{
-    background-color: #f3b6c8;
-  }
-  
   .body-color{
     background-color: #790022;
   }
-  #row2{
+
+  nav{
+    background-color: #f3b6c8;
+  }
+
+  .row2{
     background-color: #790022; 
   }
 
-  #row1{
+  .row1{
     height: 280px; 
-    background-repeat: no-repeat; 
     background-color: rgb(85, 2, 34); 
-    border-radius: 5%;
   }
 
   .row3{
-    margin-left: -3%;
-    margin-right: -3%;
+    margin-left: 2%;
+    margin-right: 2%;
   }  
 
   .main_content1 {
-    text-align: left;
     margin-left: 20%;
     margin-top: 10%;
     margin-bottom: 10%;
-    color: rgb(2, 53, 85);
-  }
-  .logo_h4 { /* 标题 */
-    font-family: oswaldFont;
-    font-size: 80px;
-    text-align: left;
-    color: #b6e7f3;
   }
   
   .main_content2 {
-    text-align: right;
     margin-left: 40%;
     margin-top: 12%;
     margin-right: 5%;
-    color: #b6e7f3;
   }
+
+  .logo_h4 { /* 标题 */
+    font-size: 80px;
+  }
+
   .main_text_h1 {
-    font-family: oswaldFont;
     font-size: 28px;
     margin-top: 5px;
     margin-right: 10px;
-    text-align: right;
-    color: #b6e7f3;
   }
+
   .main_text_h2 {
-    font-family: oswaldFont;
     font-size: 20px;
     margin-top: -5px;
     margin-right: 10px;
     margin-bottom: 5px;
-    text-align: right;
-    color: #b6e7f3;
   }
+
   .main_text_p {
-    font-family: openSansFont;
     font-size: 13px;
     margin-right: 10px;
     margin-bottom: 5px;
     margin-top: 10px;
-    text-align: right;
-    line-height: 1.5;
-    color: #b6e7f3;
   }
 
   .card_text_h2 {
     font-size: 16px;
-    color: #b6e7f3;
-    text-align: left;
     margin-top: 6%;
     margin-left: 25%;
   }
+
   .card_text_h22 {
     font-size: 16px;
-    color: #b6e7f3;
-    text-align: left;
     margin-top: 15%;
     margin-right: 25%;
+  }
+
+  .card_text_h1 {
+    font-size: 60px;
+    margin-top: 27%;
+    margin-right: 16%;
+    padding-left: 42%;
+  }
+
+  .card_text_h11 {
+    font-size: 60px;
+    margin-top: 25%;
+    margin-left: 25%;
   }
   
   .main_3d_image {
@@ -1042,6 +995,7 @@ X3D, x3d {
       margin-left: 50%;
       display: block;
     }
+
     .main_3d_image22 {
       background-image: url(../assets/images/Sprite_can.png);
       background-repeat: no-repeat;
@@ -1052,6 +1006,7 @@ X3D, x3d {
       margin-left: -2%;
       display: block;
     }
+
     .main_3d_image3 {
       background-image: url(../assets/images/dr_pepper_can.png);
       background-repeat: no-repeat;
@@ -1062,57 +1017,36 @@ X3D, x3d {
       display: block;
     }
 
-  .card_text_h1 {
-    font-family: oswaldFont;
-    font-size: 60px;
-    color: #b6e7f3;
-    text-align: center;
-    margin-top: 27%;
-    margin-right: 16%;
-    padding-left: 42%;
+  .card-text-left{
+    background-color: #790022; 
+    height: 701px;
+    margin-top: 10px;
+    margin-left: -23px;
+    margin-right: -78px;
   }
-  .card_text_h11 {
-    font-family: oswaldFont;
-    font-size: 60px;
-    color: #b6e7f3;
-    text-align: center;
-    margin-top: 25%;
-    margin-left: 25%;
+  
+  .card-text-right{
+    background-color: #790022; 
+    height: 230px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: -7px;
+    margin-bottom: -4px;
   }
 
-  .card-text-left{
-    border: 2px solid #b6e7f3;
-    border-radius: 2%;
-    height: 700px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+  .card-text-middle{
+    background-color: #790022; 
+    margin-left: -61px;
+    margin-right: -61px;
+    height: 374px;
   }
-  .card-text-right{
-    border: 2px solid #b6e7f3;
-    border-radius: 2%;
-    height: 350px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
+
   .card-text{
-    font-family: openSansFont;
-    color: #b6e7f3;
     font-size: 13px;
     margin-top: 10px;
   }
 
-  .gallery-header{
-    font-family: oswaldFont;
-    color: white;  
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    margin-bottom: -7%;
-    padding-bottom: 3%;
-    padding-top: 6%;
-    padding-left: 15%;
+  .gallery .img-thumbnail{
+    max-width: 15%;
   }
 }

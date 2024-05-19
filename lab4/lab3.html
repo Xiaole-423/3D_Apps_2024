@@ -1,91 +1,156 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Coca Cola 3D App</title>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" 
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
-    crossorigin="anonymous">
-
-    <!--  ...................  -->
-    <script type='text/javascript'src='http://www.x3dom.org/download/x3dom.js'> </script>
-  </head>
+    <head>
+        <title>Coca Cola 3D App</title>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+        crossorigin="anonymous">
+    </head>
 <!--  ...................  -->
   <body>
-    <nav>
-        
-    </nav>
+    <nav class="navbar navbar-expand-sm navbar_cola">
+        <div class="container-fluid">
+            <div>
+                <p>
+                    <a class="logo">CocaCola</a>
+                    <a class="logo_h1">J</a><a class="logo_h2">ourney</a>
+                </p>
+                <p class="logo_h3">
+                    Refreshing the world, one story at a time
+                </p>
+            </div> 
 
-    <!--  ...................  -->
-    <div class="row">
-        <!-- Column to hold the X3D Model -->
-        <div class="col-sm-9">
-          <div class="card text-left">
-            <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
+    <!--  ................... ??? -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    <!-- .................. -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="javascript:swap('coke')">Coke</a>
+                        <a class="nav-link" href="#">Home</a>
+                        <!-- class="nav-link active"被激活状态-->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:swap('sprite')">Sprite</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
+
+            <!-- .................. -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Drinks
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Coca Cola</a>
+                            <a class="dropdown-item" href="#">Sprite</a>
+                            <a class="dropdown-item" href="#">Dr Pepper</a>
+                        </div>
+                    </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:swap('pepper')">Pepper</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </div> 
+        </div>
+    </nav>
+   
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="card-text-left">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="javascript:swap('coke')">Coke</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:swap('sprite')">Sprite</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:swap('pepper')">Pepper</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Coca Cola X3D Model</h4>
 
-            <!-- Bootstrap 4 card body to hold information about the X3D model-->
-            <div class="card-body">
-                <h4 class="card-title">Coca Cola X3D Model</h4>
+                    <div class="model3D">
+                        <x3d width= '500px' height='400px'>	
+                            <scene>
+                                <p class="centre">This Coke Can was built in 3ds Max and exported to VRML97</p>
+                                <inline url="assets/images/x3d/Cola.x3d"> </inline> 
+                            </scene> 
+                        </x3d>	
+                    </div> 
 
-                <!-- Place the X3D code here -->
-                <!-- Temporary image instead of 
-                <div id="main_3d_image"></div>-->
-                <div class="model3D">
-                    <x3d width="544px" height="376px">
-                        <scene render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" pickmode="idBuf" dopickpass="true">
-                            <inline url="assets/x3d/coke.x3d" render="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename=""> </inline>
-                        </scene>
-                    <canvas class="x3dom-canvas" id="x3dom-1715249894423-canvas" tabindex="0" width="1088" height="752"></canvas><div id="x3dom-state-viewer" style="display: none;"><div class="x3dom-states-rendermode-hardware">Hardware-Rendering</div><ul class="x3dom-states-list"><li class="x3dom-states-item"><div class="x3dom-states-item-title">FPS</div><div class="x3dom-states-item-value">0.01</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">ANIM</div><div class="x3dom-states-item-value">0.00</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">TRAVERSE</div><div class="x3dom-states-item-value">0.10</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">SORT</div><div class="x3dom-states-item-value">0.00</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">RENDER</div><div class="x3dom-states-item-value">0.20</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">DRAW</div><div class="x3dom-states-item-value">0.20</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">PICKING</div><div class="x3dom-states-item-value">1.00</div></li></ul><ul class="x3dom-states-list"><li class="x3dom-states-item"><div class="x3dom-states-item-title">#NODES:</div><div class="x3dom-states-item-value">5</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#SHAPES:</div><div class="x3dom-states-item-value">1</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#DRAWS:</div><div class="x3dom-states-item-value">1</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#POINTS:</div><div class="x3dom-states-item-value">13,056</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#TRIS:</div><div class="x3dom-states-item-value">4,352</div></li></ul><ul class="x3dom-states-list"><li class="x3dom-states-item"><div class="x3dom-states-item-title">#ACTIVE</div><div class="x3dom-states-item-value">0</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#TOTAL</div><div class="x3dom-states-item-value">3</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#LOADED</div><div class="x3dom-states-item-value">3</div></li><li class="x3dom-states-item"><div class="x3dom-states-item-title">#FAILED</div><div class="x3dom-states-item-value">0</div></li></ul></div><div class="x3dom-progress" style="display: none;"><strong>Loading: 0</strong><span style="width: 25%;"> </span></div></x3d>
-                </div> 
-
-                <p class="card-text">This X3D model of the coke can has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.</p>
-                <h5 class="card-subtitle">Camera Views</h5>
-                <div class="camera-btns">
-                    <p class="card-text">These buttons select a range of X3D model viewpoints</p>
-                    <div class="btn-group ">
-                        <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
-                        <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
-                        <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
-                        <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
-                        <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
-                        <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+                    <h5 class="card-subtitle">Camera Views</h5>
+                    <div class="camera-btns">
+                        <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                        <div class="btn-group ">
+                            <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
+                            <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
+                            <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
+                            <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
+                            <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
+                            <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+                        </div>
                     </div>
                 </div>
             </div>
-          </div>
         </div>
-        <!-- Column to hold 3D Image gallery --> 
-        <div class="col-sm-3">
-            <div class="card text-left">
-                <div class="card-header gallery-header">
-                    Gallery
-                </div>
+
+        <div class="col-sm-4">
+            <div class="card-text-left">
+                <div class="card_title">Gallery</div>
                 <div class="card-body">
-                    <h4 class="card-title">3D Image Gallery</h4>
-                    <!-- Dynamically generated image gallery using JS and PHP -->
-                    <div class="gallery" id="gallery_coke"><a href="assets/images/gallery_images/coke_can_tn.png "><img class="card-img-top img-thumbnail" src="assets/images/gallery_images/coke_can_tn.png"></a><a href="assets/images/gallery_images/sprite_top_tn.png "><img class="card-img-top img-thumbnail" src="assets/images/gallery_images/sprite_top_tn.png"></a><a href="assets/images/gallery_images/coke_top_tn.png "><img class="card-img-top img-thumbnail" src="assets/images/gallery_images/coke_top_tn.png"></a><a href="assets/images/gallery_images/dr_pepper_top_tn.png "><img class="card-img-top img-thumbnail" src="assets/images/gallery_images/dr_pepper_top_tn.png"></a></div>
-                    <p class="card-text">These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in 3ds Max 2017 with Mental Ray</p>
+                    <div class="gallery" id="gallery_coke">
+                        <a href="assets/images/gallery_images/coke.png ">
+                            <img class="card-img-top img-thumbnail" src="assets/images/gallery_images/coke.png">
+                        </a>
+                    </div>
+                    <div class="gallery" id="gallery_coke">
+                        <a href="assets/images/gallery_images/sprite.png ">
+                            <img class="card-img-top img-thumbnail" src="assets/images/gallery_images/sprite.png">
+                        </a>
+                    </div>
+                    <div class="gallery" id="gallery_coke">
+                        <a href="assets/images/gallery_images/pepper.png ">
+                            <img class="card-img-top img-thumbnail" src="assets/images/gallery_images/pepper.png">
+                        </a>
+                    </div>
+                    <div class="gallery" id="gallery_coke">
+                        <a href="assets/images/gallery_images/other.png ">
+                            <img class="card-img-top img-thumbnail" src="assets/images/gallery_images/other.png">
+                        </a>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+ 
+    <!--  ...................  -->
+    <nav class="navbar navbar-expand-sm" style="background-color: #b6e7f3;">
+        <div class="container-fluid">
+            <div class="navbar-text float-left copyright">
+                <p>
+                    <span class="align-baseline">&copy 2024 Mobile Web 3D Applications |
+                        <a href="javascript:changeLook()">Restyle</a>
+                    </span>
+                </p>   
+            </div>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-github-square fa-2x fa-pull-right"></i></a>
+            <a href="#"><i class="fab fa-google-plus-square fa-2x fa-pull-right"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-2x fa-pull-right"></i></a>
+            <a href="#"><i class="fab fa-facebook-square fa-2x fa-pull-right"></i></a>
           </div>
-      </div>
-    
-
+    </nav>
+<!--  ...................  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
     crossorigin="anonymous"></script>
@@ -98,12 +163,8 @@
 
     <script src="https://kit.fontawesome.com/5f811d0233.js" crossorigin="anonymous"></script>
 
-    <link href="css/custom.css" rel="stylesheet">
+    <script src="scripts/js/x3dom.js"></script>
 
-    <!--  ...................  -->
-    <link rel='stylesheet'type='text/css' href='http://www.x3dom.org/download/x3dom.css'></link>
+    <link href="css/custom.css" rel="stylesheet"> 
   </body>
-
-  
-
 </html>
