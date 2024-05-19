@@ -81,14 +81,17 @@
             <!--  home page-content-cola  -->
             <div class="row1" id="rowColor2">
                 <div class="row">
+                    <!--  home page-content-cola-description  -->
                     <div class="col-sm-5">
                         <div id="description_left" class="card_text_h2"></div>
                     </div>
 
+                    <!--  home page-content-cola-img  -->
                     <div class="col-sm-4">
                         <div class="main_3d_image"></div>
                     </div>
 
+                    <!--  home page-content-cola-btn  -->
                     <div class="col-sm-3">
                         <p class="card_text_h1">
                             <a href="https://www.coca-cola.com/gb/en/brands/coca-cola-original-taste" data-toggle="popover" data-trigger="hover" data-placement="bottom" title data-content="Find out more..." data-original-title>
@@ -105,6 +108,7 @@
             <!--  home page-content-sprite  -->
             <div class="row1" id="rowColor3">
                 <div class="row">
+                    <!--  home page-content-sprite-description  -->
                     <div class="col-sm-3">
                         <p class="card_text_h11">
                             <a href="https://www.coca-cola.com/gb/en/brands/sprite" data-toggle="popover" data-trigger="hover" data-placement="bottom" title data-content="Find out more..." data-original-title>
@@ -113,10 +117,12 @@
                             Sprite</p>
                     </div>
                     
+                    <!--  home page-content-sprite-img  -->
                     <div class="col-sm-4">
                         <div class="main_3d_image22"></div>
                     </div>
 
+                    <!--  home page-content-sprite-btn  -->
                     <div class="col-sm-5">
                         <div id="description_centre" class="card_text_h22"></div>
                     </div>
@@ -129,14 +135,17 @@
             <!--  home page-content-pepper  -->
             <div class="row1" id="rowColor4">
                 <div class="row">
+                    <!--  home page-content-pepper-description  -->
                     <div class="col-sm-5">
                         <div id="description_right" class="card_text_h2"></div>
                     </div>
 
+                    <!--  home page-content-pepper-img  -->
                     <div class="col-sm-4">
                         <div class="main_3d_image3"></div>
                     </div>
 
+                    <!--  home page-content-pepper-btn  -->
                     <div class="col-sm-3">
                         <p class="card_text_h1">
                             <a href="https://www.coca-cola.com/gb/en/brands/dr-pepper" data-toggle="popover" data-trigger="hover" data-placement="bottom" title data-content="Find out more..." data-original-title>
